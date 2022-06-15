@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scientiavitae.CrapsPropsCalculator.mainController">
+    <children>
+        <HBox prefHeight="700.0" prefWidth="1000.0">
+            <children>
+                <VBox HBox.hgrow="ALWAYS">
+                    <children>
+                        <GridPane alignment="CENTER" hgap="5.0" prefHeight="350.0" prefWidth="750.0" vgap="1.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <ImageView id="die_Hop_4_die2Top" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_4_die2Bottom" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_4_die1" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_4_die3" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_5_die1" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_5_die4" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_5_die2" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_5_die3" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_6_die2" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_6_die4" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_6_die1" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_6_die5" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_5.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_7_die3" fitHeight="50.0" fitWidth="50.0" layoutX="312.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_7_die4" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_7_die2" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_7_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_5.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_7_die1" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_7_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_6.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_8_die3" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_8_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_5.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_8_die2" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_8_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_6.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_9_die4" fitHeight="50.0" fitWidth="50.0" layoutX="612.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_9_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_5.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_9_die3" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_9_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_6.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_10_die4" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_10_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_6.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_10_die5Top" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_5.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_10_die5Bottom" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_5.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_6_die3Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_6_die3Right" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_8_die4Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Hop_8_die4Right" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                                    <image>
+                                        <Image url="@../../../res/red_die_4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Button id="button_ClearAllTop" mnemonicParsing="false" onMouseClicked="#onClearAll" text="CLEAR ALL" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect>
+                                </Button>
+                                <TextField id="textField_Hop_3_3=3-3" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="3 - 3" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                                <TextField id="textField_Hop_2_2=2-2" alignment="CENTER" editable="false" onMouseClicked="#onSelectTextField" promptText="2 - 2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_1_3=1-3" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="1 - 3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_1_4=1-4" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="1 - 4" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_2_3=2-3" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="2 - 3" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_2_4=2-4" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="2 - 4" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_1_5=1-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="1 - 5" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_3_4=3-4" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="3 - 4" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_2_5=2-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="2 - 5" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_1_6=1-6" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="1 - 6" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_3_5=3-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="3 - 5" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_2_6=2-6" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="2 - 6" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_4_5=4-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="4 - 5" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_3_6=3-6" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="3 - 6" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_4_6=4-6" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="4 - 6" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_5_5=5-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="5 - 5" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_4s=1-3,2-2" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="4's hop" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_5s=1-4,2-3" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="5's hop" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_Easy6s=1-5,2-4" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Easy 6's hop" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_7s=1-6,2-5,3-4" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="7's hop" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_Easy8s=2-6,3-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Easy 8's hop" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_9s=3-6,4-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="9's hop" GridPane.columnIndex="12" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_10s=4-6,5-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="10's hop" GridPane.columnIndex="14" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_4_4=4-4" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="4 - 4" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                                <TextField id="textField_Hop_All6s=1-5,2-4,3-3" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="All 6's Hop" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.rowIndex="7" GridPane.valignment="TOP" />
+                                <TextField id="textField_Hop_All8s=2-6,3-5,4-4" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="All 8's Hop" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="7" GridPane.valignment="TOP">
+                                    <GridPane.margin>
+                                        <Insets />
+                                    </GridPane.margin>
+                                </TextField>
+                                <Label text="Craps Props Calculator" textFill="#c800c8" GridPane.columnIndex="4" GridPane.columnSpan="9" GridPane.halignment="CENTER">
+                                    <font>
+                                        <Font size="36.0" />
+                                    </font>
+                                </Label>
+                                <TextField id="textField_Hop_AllHardways=2-2,3-3,4-4,5-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="All Hardways Hop" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+                            </children>
+                            <VBox.margin>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </VBox.margin>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                        </GridPane>
+                        <GridPane>
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <ImageView id="die_Horn_2_die1Right" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="LEFT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Horn_2_die1Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Horn_3_die1" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Horn_3_die2" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="LEFT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Horn_11_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_5.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Horn_11_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_6.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Horn_12_die6Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="RIGHT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_6.jpg" />
+                                    </image>
+                                </ImageView>
+                                <ImageView id="die_Horn_12_die6Right" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="LEFT">
+                                    <image>
+                                        <Image url="@../../../res/red_die_6.jpg" />
+                                    </image>
+                                </ImageView>
+                                <TextField id="textField_Horn_2=2" alignment="CENTER" maxWidth="-Infinity" minWidth="10.0" onMouseClicked="#onSelectTextField" prefWidth="50.0" promptText="2" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
+                                <TextField id="textField_Horn_3=3" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="50.0" promptText="3" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                                <TextField id="textField_Horn_11=11" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="50.0" promptText="11" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                <TextField id="textField_Horn_12=12" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="50.0" promptText="12" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                                <TextField id="textField_Horn_2_3=2,3" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="2 - 3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                                <TextField id="textField_Horn_3_11=3,11" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="3 - 11" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                                <TextField id="textField_Horn_11_12=11,12" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="11 - 12" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                </TextField>
+                                <TextField id="textField_Horn_2_3_11=2,3,11" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="2 - 3 - 11" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                                <TextField id="textField_Horn_2_11=2,11" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="2 - 11" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+                                <TextField id="textField_Horn_3_12=3,12" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="3 - 12" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+                                <TextField id="textField_Horn_2_11_12=2,11,12" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="2 - 11 - 12" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="2">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                </TextField>
+                                <TextField id="textField_Horn_2_3_12=2,3,12" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="2 - 3 - 12" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+                                <TextField id="textField_Horn_2_12=2,12" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="2 - 12" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                                <TextField id="textField_Horn_3_11_12=3,11,12" alignment="CENTER" maxWidth="-Infinity" onMouseClicked="#onSelectTextField" prefWidth="100.0" promptText="3 - 11 - 12" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+                            </children>
+                            <VBox.margin>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </VBox.margin>
+                        </GridPane>
+                        <GridPane>
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <VBox.margin>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </VBox.margin>
+                            <children>
+                                <TextField id="textField_Horn_Horn=2,3,11,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Horn" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Horn_HornHigh_2=2,2,3,11,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Horn High 2" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Horn_HornHigh_3=2,3,3,11,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Horn High 3" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Horn_HornHigh_11=2,3,11,11,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Horn High 11" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Horn_HornHigh_12=2,3,11,12,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Horn High 12" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Special_World=2,3,7,11,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="World" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Special_AnyCraps=2,3,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Any Craps" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Special_AnySeven=7" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="Any Seven" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <TextField id="textField_Special_CandE=2,3,11,12" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="C &amp; E" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                    <GridPane.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </GridPane.margin>
+                                </TextField>
+                                <Button id="button_ClearAllBottom" mnemonicParsing="false" onMouseClicked="#onClearAll" text="CLEAR ALL" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect>
+                                </Button>
+                            </children>
+                        </GridPane>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Label text="Enter Roll:">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <HBox>
+                            <children>
+                                <VBox prefHeight="200.0" prefWidth="100.0">
+                                    <children>
+                                        <Label alignment="CENTER" contentDisplay="CENTER" text="Die 1:" />
+                                        <ImageView id="die_RollDie1_1" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_1.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie1_2" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_2.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie1_3" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_3.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie1_4" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_4.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie1_5" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_5.jpg" />
+                                            </image>
+                                            <effect>
+<!--                                                <ColorAdjust hue="-0.67" />-->
+                                            </effect>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie1_6" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_6.jpg" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                                    </HBox.margin>
+                                </VBox>
+                                <VBox>
+                                    <children>
+                                        <Label alignment="CENTER" contentDisplay="CENTER" text="Die 2:" />
+                                        <ImageView id="die_RollDie2_1" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_1.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie2_2" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_2.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie2_3" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_3.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie2_4" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_4.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie2_5" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_5.jpg" />
+                                            </image>
+                                            <effect>
+<!--                                                <ColorAdjust hue="-0.67" />-->
+                                            </effect>
+                                        </ImageView>
+                                        <ImageView id="die_RollDie2_6" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../res/red_die_6.jpg" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" left="5.0" top="5.0" />
+                                    </HBox.margin>
+                                </VBox>
+                            </children>
+                        </HBox>
+                        <Button id="button_Calculate" mnemonicParsing="false" onMouseClicked="#onCalculate" prefHeight="50.0" prefWidth="100.0" text="CALCULATE">
+                            <VBox.margin>
+                                <Insets top="10.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Button>
+                        <Label text="Total Bets">
+                            <VBox.margin>
+                                <Insets top="20.0" />
+                            </VBox.margin>
+                        </Label>
+                        <TextField id="textField_TotalBets" alignment="CENTER" editable="false">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </TextField>
+                        <Label text="Winnings">
+                            <VBox.margin>
+                                <Insets top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <TextField id="textField_Winnings" alignment="CENTER" editable="false" style="-fx-opacity: 50;">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </TextField>
+                        <Label text="Losses">
+                            <VBox.margin>
+                                <Insets top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <TextField id="textField_Losses" alignment="CENTER" editable="false">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </TextField>
+                        <Label text="Total Payout">
+                            <VBox.margin>
+                                <Insets top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <TextField id="textField_TotalPayout" alignment="CENTER" editable="false">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </TextField>
+                        <Button mnemonicParsing="false" onMouseClicked="#onClearRoll" text="Clear Roll">
+                            <VBox.margin>
+                                <Insets top="20.0" />
+                            </VBox.margin>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                    <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="30.0" top="10.0" />
+                    </HBox.margin>
+                </VBox>
+            </children>
+            <rotationAxis>
+                <Point3D />
+            </rotationAxis>
+        </HBox>
+    </children>
+</AnchorPane>

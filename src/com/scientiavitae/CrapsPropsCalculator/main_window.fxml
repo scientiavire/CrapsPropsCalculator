@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scientiavitae.CrapsPropsCalculator.mainController">
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: LIGHTSTEELBLUE;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scientiavitae.CrapsPropsCalculator.mainController">
     <children>
         <HBox prefHeight="700.0" prefWidth="1000.0">
             <children>
@@ -46,172 +46,172 @@
                             <children>
                                 <ImageView id="die_Hop_4_die2Top" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_2.jpg" />
+                                        <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_4_die2Bottom" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_2.jpg" />
+                                        <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_4_die1" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_1.jpg" />
+                                        <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_4_die3" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_3.jpg" />
+                                        <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_5_die1" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_1.jpg" />
+                                        <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_5_die4" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_4.jpg" />
+                                        <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_5_die2" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_2.jpg" />
+                                        <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_5_die3" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_3.jpg" />
+                                        <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_6_die2" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_2.jpg" />
+                                        <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_6_die4" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_4.jpg" />
+                                        <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_6_die1" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_1.jpg" />
+                                        <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_6_die5" fitHeight="50.0" fitWidth="50.0" layoutX="76.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_5.jpg" />
+                                        <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_7_die3" fitHeight="50.0" fitWidth="50.0" layoutX="312.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_3.jpg" />
+                                        <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_7_die4" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_4.jpg" />
+                                        <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_7_die2" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_2.jpg" />
+                                        <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_7_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_5.jpg" />
+                                        <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_7_die1" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_1.jpg" />
+                                        <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_7_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_6.jpg" />
+                                        <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_8_die3" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_3.jpg" />
+                                        <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_8_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_5.jpg" />
+                                        <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_8_die2" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_2.jpg" />
+                                        <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_8_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_6.jpg" />
+                                        <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_9_die4" fitHeight="50.0" fitWidth="50.0" layoutX="612.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_4.jpg" />
+                                        <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_9_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_5.jpg" />
+                                        <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_9_die3" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_3.jpg" />
+                                        <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_9_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_6.jpg" />
+                                        <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_10_die4" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_4.jpg" />
+                                        <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_10_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_6.jpg" />
+                                        <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_10_die5Top" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_5.jpg" />
+                                        <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_10_die5Bottom" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_5.jpg" />
+                                        <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_6_die3Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_3.jpg" />
+                                        <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_6_die3Right" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_3.jpg" />
+                                        <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_8_die4Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_4.jpg" />
+                                        <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Hop_8_die4Right" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                                     <image>
-                                        <Image url="@../../../res/red_die_4.jpg" />
+                                        <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <Button id="button_ClearAllTop" mnemonicParsing="false" onMouseClicked="#onClearAll" text="CLEAR ALL" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
@@ -280,42 +280,42 @@
                             <children>
                                 <ImageView id="die_Horn_2_die1Right" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="LEFT">
                                     <image>
-                                        <Image url="@../../../res/red_die_1.jpg" />
+                                        <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Horn_2_die1Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT">
                                     <image>
-                                        <Image url="@../../../res/red_die_1.jpg" />
+                                        <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Horn_3_die1" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
                                     <image>
-                                        <Image url="@../../../res/red_die_1.jpg" />
+                                        <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Horn_3_die2" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="LEFT">
                                     <image>
-                                        <Image url="@../../../res/red_die_2.jpg" />
+                                        <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Horn_11_die5" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
                                     <image>
-                                        <Image url="@../../../res/red_die_5.jpg" />
+                                        <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Horn_11_die6" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="LEFT">
                                     <image>
-                                        <Image url="@../../../res/red_die_6.jpg" />
+                                        <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Horn_12_die6Left" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="RIGHT">
                                     <image>
-                                        <Image url="@../../../res/red_die_6.jpg" />
+                                        <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <ImageView id="die_Horn_12_die6Right" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="LEFT">
                                     <image>
-                                        <Image url="@../../../res/red_die_6.jpg" />
+                                        <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                     </image>
                                 </ImageView>
                                 <TextField id="textField_Horn_2=2" alignment="CENTER" maxWidth="-Infinity" minWidth="10.0" onMouseClicked="#onSelectTextField" prefWidth="50.0" promptText="2" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
@@ -434,27 +434,27 @@
                                         <Label alignment="CENTER" contentDisplay="CENTER" text="Die 1:" />
                                         <ImageView id="die_RollDie1_1" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_1.jpg" />
+                                                <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie1_2" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_2.jpg" />
+                                                <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie1_3" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_3.jpg" />
+                                                <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie1_4" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_4.jpg" />
+                                                <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie1_5" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_5.jpg" />
+                                                <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                             </image>
                                             <effect>
 <!--                                                <ColorAdjust hue="-0.67" />-->
@@ -462,7 +462,7 @@
                                         </ImageView>
                                         <ImageView id="die_RollDie1_6" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_6.jpg" />
+                                                <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                     </children>
@@ -475,27 +475,27 @@
                                         <Label alignment="CENTER" contentDisplay="CENTER" text="Die 2:" />
                                         <ImageView id="die_RollDie2_1" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_1.jpg" />
+                                                <Image url="@../../../res/red_die_1_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie2_2" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_2.jpg" />
+                                                <Image url="@../../../res/red_die_2_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie2_3" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_3.jpg" />
+                                                <Image url="@../../../res/red_die_3_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie2_4" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_4.jpg" />
+                                                <Image url="@../../../res/red_die_4_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                         <ImageView id="die_RollDie2_5" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_5.jpg" />
+                                                <Image url="@../../../res/red_die_5_gray_bkgd.jpg" />
                                             </image>
                                             <effect>
 <!--                                                <ColorAdjust hue="-0.67" />-->
@@ -503,7 +503,7 @@
                                         </ImageView>
                                         <ImageView id="die_RollDie2_6" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#onClickRollDie" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../../../res/red_die_6.jpg" />
+                                                <Image url="@../../../res/red_die_6_gray_bkgd.jpg" />
                                             </image>
                                         </ImageView>
                                     </children>
@@ -529,7 +529,7 @@
                                 <Insets top="20.0" />
                             </VBox.margin>
                         </Label>
-                        <TextField id="textField_TotalBets" alignment="CENTER" editable="false">
+                        <TextField id="textField_TotalBets" alignment="CENTER" editable="false" text="15">
                             <font>
                                 <Font size="14.0" />
                             </font>

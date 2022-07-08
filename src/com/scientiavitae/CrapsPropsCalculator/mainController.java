@@ -105,6 +105,7 @@ public class mainController {
         // Update the selected bet text field with the new value
         if (newValue == 0d) {
             tfSource.setText("");
+            tfSource.setStyle(null);
         } else {
             tfSource.setText(df.format(newValue));
         }

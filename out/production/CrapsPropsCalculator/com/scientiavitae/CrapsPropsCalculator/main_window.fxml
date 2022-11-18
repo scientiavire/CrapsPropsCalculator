@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: LIGHTSTEELBLUE;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scientiavitae.CrapsPropsCalculator.mainController">
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: LIGHTSTEELBLUE;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scientiavitae.CrapsPropsCalculator.mainController">
     <children>
         <HBox prefHeight="700.0" prefWidth="1000.0">
             <children>
@@ -251,7 +251,7 @@
                                 </TextField>
                                 <Label text="Craps Props Calculator" textFill="#c800c8" GridPane.columnIndex="4" GridPane.columnSpan="9" GridPane.halignment="CENTER">
                                     <font>
-                                        <Font size="36.0" />
+                                        <Font name="System Bold" size="36.0" />
                                     </font>
                                 </Label>
                                 <TextField id="textField_Hop_AllHardways=2-2,3-3,4-4,5-5" alignment="CENTER" onMouseClicked="#onSelectTextField" promptText="All Hardways Hop" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
